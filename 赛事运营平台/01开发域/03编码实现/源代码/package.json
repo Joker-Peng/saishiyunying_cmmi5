@@ -1,0 +1,78 @@
+{
+  "name": "console-match-oper-frontend",
+  "version": "1.0.0",
+  "publishConfig": {
+    "registry": "https://npm.tjstats.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.tjstats.com/tjsport/console-match-oper-frontend.git"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve --mode dev",
+    "serve:test": "vue-cli-service serve --mode test",
+    "build:develop": "vue-cli-service build --mode development",
+    "build:production": "vue-cli-service build --mode production"
+  },
+  "dependencies": {
+    "@vant/area-data": "^1.2.3",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-vue": "^1.0.2",
+    "area-data": "^5.0.6",
+    "axios": "^0.21.1",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-import": "^1.13.5",
+    "compression-webpack-plugin": "^5.0.0",
+    "core-js": "^3.6.5",
+    "cropper": "^4.1.0",
+    "element-ui": "^2.15.0",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "less": "^4.1.2",
+    "less-loader": "^6.2.0",
+    "moment": "^2.29.2",
+    "node-sass": "^4.14.1",
+    "sass": "^1.50.0",
+    "sass-loader": "^8.0.2",
+    "screenfull": "^5.2.0",
+    "script-loader": "^0.7.2",
+    "vant": "^2.12.47",
+    "vue": "^2.6.11",
+    "vue-area-linkage": "^5.1.0",
+    "vue-router": "^3.5.1",
+    "vue-template-compiler": "^2.6.11",
+    "vuex": "^3.6.2",
+    "xlsx": "^0.18.5",
+    "xlsx-style": "^0.8.13"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-import": "^1.13.5",
+    "compression-webpack-plugin": "^5.0.0",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "less": "^4.1.2",
+    "less-loader": "^6.2.0",
+    "node-sass": "^4.14.1",
+    "sass": "^1.50.0",
+    "sass-loader": "^8.0.2",
+    "script-loader": "^0.7.2",
+    "vue-template-compiler": "^2.6.11",
+    "xlsx": "^0.18.5",
+    "xlsx-style": "^0.8.13"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "author": "Simon",
+  "description": "a new project with cli"
+}

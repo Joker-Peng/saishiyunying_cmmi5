@@ -1,0 +1,57 @@
+# available namespace (develop, production)
+
+services:
+  # - name: "demo"
+  #   port: 8080
+  #   type: http # http, grpc
+  #   pure: false
+  #   lb:
+  #     develop: ClusterIP # ClusterIP, LoadBalancer, NodePort
+  #     production: ClusterIP
+  - name: ""
+    port: 80
+    type: http
+    pure: false
+    
+jobs:
+  # - name: "job"
+  #   type: job
+  #   pure: true
+  #   args: ["-svc", "job"]
+
+replicaCount: 
+  develop: 2
+  production: 5
+
+minReplicas: 
+  develop: 1
+  production: 5
+
+maxReplicas: 
+  develop: 5
+  production: 20
+
+volumes:
+  - name: config-volume
+    emptyDir: {}
+
+# volumeMounts:
+#   - name: config-volume
+#     mountPath: /go/bin/app.env
+#     subPath: app.env
+
+# resources:
+#   develop:
+#     limits:
+#       cpu: 2
+#       memory: 2Gi
+#     requests:
+#       cpu: 100m
+#       memory: 100Mi
+#   production:
+#     limits:
+#       cpu: 4
+#       memory: 4Gi
+#     requests:
+#       cpu: 100m
+#       memory: 100Mi

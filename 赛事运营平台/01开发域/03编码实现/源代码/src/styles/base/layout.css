@@ -1,0 +1,39 @@
+:export {
+  menuText: #333333;
+  menuActiveText: #409eff;
+  subMenuActiveText: #409eff;
+  menuBg: #ffffff;
+  menuHover: #F6F7FB;
+  subMenuBg: #ffffff;
+  subMenuHover: #F6F7FB;
+  sideBarWidth: 180px;
+  sidebarBgColor: #ffffff;
+}
+.my-body {
+  margin-top: 50px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  overflow: auto;
+}
+.my-body-micro {
+  margin-top: 0;
+}
+.el-header {
+  font-size: 12px;
+  color: #fff;
+  line-height: 50px;
+  height: 60px !important;
+  width: 100%;
+  background: #F6F7FB;
+}
+.el-aside {
+  width: 180px !important;
+  color: #ffffff;
+  background: #ffffff;
+}
+.el-main {
+  background: #F6F7FB;
+}
